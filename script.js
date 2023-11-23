@@ -14,7 +14,7 @@ const projectsBackground = document.querySelector("#projects");
 const newsBackground = document.querySelector("#news");
 
 sunIconButton.addEventListener("click", () => {
-  document.body.style.background = "white";
+  document.body.style.backgroundColor = "white";
   sunIconButton.style.display = "none";
   moonIconButton.style.display = "block";
   headerBackground.style.backgroundColor = "black"
@@ -23,7 +23,7 @@ sunIconButton.addEventListener("click", () => {
 });
 
 if(moonIconButton.addEventListener("click", () =>  {
-  document.body.style.background = "linear-gradient(to bottom, black, rgb(75, 0, 75))";
+  document.body.style.backgroundColor = "black";
   moonIconButton.style.display = "none";
   sunIconButton.style.display = "block";
 }));
