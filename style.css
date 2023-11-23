@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, black, rgb(75, 0, 75));
+  background-color: black;
   min-width: 250px;
 }
 
