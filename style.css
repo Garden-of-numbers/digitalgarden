@@ -205,9 +205,6 @@ h1 {
 }
 
 @media (max-width: 420px){
-  .projectsClass{
-    flex-direction: column;
-  }
   .projectsClass img{
     margin: 25px;
   }
