@@ -181,12 +181,12 @@ h1 {
   padding: 100px;
   border: 2.5px solid orangered;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .projectsClass img{
   border-radius: 50px;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .projectsClass img:hover, .projekty img:focus{
