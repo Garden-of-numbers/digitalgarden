@@ -13,17 +13,18 @@ const headerBackground = document.querySelector("header");
 const projectsBackground = document.querySelector("#projects");
 const newsBackground = document.querySelector("#news");
 const winterPageBtn = document.querySelector("#winterPageBtn");
-const winterPage = document.querySelector("#winterPageId")
+const winterPage = document.querySelector("#winterPageId");
+const closeWinterPage = document.querySelector("#closeBtnX");
 
 
 sunIconButton.addEventListener("click", () => {
   document.body.style.backgroundColor = "white";
   sunIconButton.style.display = "none";
   moonIconButton.style.display = "block";
-  headerBackground.style.backgroundColor = "black"
-  projectsBackground.style.backgroundColor = "black"
-  projectsBackground.style.border = "2.5px solid greenyellow"
-  newsBackground.style.backgroundColor = "black"
+  headerBackground.style.backgroundColor = "black";
+  projectsBackground.style.backgroundColor = "black";
+  projectsBackground.style.border = "2.5px solid greenyellow";
+  newsBackground.style.backgroundColor = "black";
 });
 
 if(moonIconButton.addEventListener("click", () =>  {
@@ -59,11 +60,15 @@ backPageBtn.addEventListener("click", () => {
   }
 });
 
-winterPageBtn.addEventListener("click", () => {
-  winterPageBtn.style.display = "none"
-  winterPage.style.display = "block"
-})
-
+if(winterPageBtn.addEventListener("click", () => {
+  winterPage.style.display = "block";
+  winterPageBtn.style.display = "none";
+  closeWinterPage.style.display = "block";
+})); else if (closeWinterPage.addEventListener("click", () => {
+  closeWinterPage.style.display = "none";
+  winterPage.style.display = "none";
+  winterPageBtn.style.display = "block";
+}));
 
 
 
