@@ -19,6 +19,7 @@ sunIconButton.addEventListener("click", () => {
   moonIconButton.style.display = "block";
   headerBackground.style.backgroundColor = "black"
   projectsBackground.style.backgroundColor = "black"
+  projectsBackground.style.border = "2.5px solid greenyellow"
   newsBackground.style.backgroundColor = "black"
 });
 
