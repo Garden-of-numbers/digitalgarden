@@ -159,6 +159,7 @@ h1 {
   color: white;
   font-weight: bolder;
   color: greenyellow;
+  cursor: pointer;
 }
 
 .pageBtnBack{
@@ -169,6 +170,7 @@ h1 {
   color: white;
   font-weight: bolder;
   color: greenyellow;
+  cursor: pointer;
 }
 
 .projectsClass{
@@ -201,6 +203,21 @@ h1 {
   display: none;
   max-width: 100%;
   height: auto;
+}
+
+.closeBtn{
+  display: none;
+  border: 2.5px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+  border: 2.5px solid orangered;
+}
+
+.closeBtn:active{
+  border: 2.5px solid greenyellow;
 }
 
 .newsClass{
