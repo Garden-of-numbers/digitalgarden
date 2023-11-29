@@ -22,9 +22,11 @@ sunIconButton.addEventListener("click", () => {
   sunIconButton.style.display = "none";
   moonIconButton.style.display = "block";
   headerBackground.style.backgroundColor = "black";
+  headerBackground.style.border = "2.5px solid orangered";
   projectsBackground.style.backgroundColor = "black";
-  projectsBackground.style.border = "2.5px solid greenyellow";
+  projectsBackground.style.border = "2.5px solid orangered";
   newsBackground.style.backgroundColor = "black";
+  newsBackground.style.border = "2.5px solid orangered";
 });
 
 if(moonIconButton.addEventListener("click", () =>  {
@@ -64,7 +66,9 @@ if(winterPageBtn.addEventListener("click", () => {
   winterPage.style.display = "block";
   winterPageBtn.style.display = "none";
   closeWinterPage.style.display = "block";
-})); else if (closeWinterPage.addEventListener("click", () => {
+})); 
+
+if (closeWinterPage.addEventListener("click", () => {
   closeWinterPage.style.display = "none";
   winterPage.style.display = "none";
   winterPageBtn.style.display = "block";
