@@ -9,9 +9,6 @@ navButton.addEventListener("click", () => {
 
 const sunIconButton = document.querySelector("#sunBtn");
 const moonIconButton = document.querySelector("#moonBtn");
-const headerBackground = document.querySelector("header");
-const projectsBackground = document.querySelector("#projects");
-const newsBackground = document.querySelector("#news");
 const winterPageBtn = document.querySelector("#winterPageBtn");
 const winterPage = document.querySelector("#winterPageId");
 const closeWinterPage = document.querySelector("#closeBtnX");
@@ -21,12 +18,6 @@ sunIconButton.addEventListener("click", () => {
   document.body.style.backgroundColor = "white";
   sunIconButton.style.display = "none";
   moonIconButton.style.display = "block";
-  headerBackground.style.backgroundColor = "black";
-  headerBackground.style.border = "2.5px solid orangered";
-  projectsBackground.style.backgroundColor = "black";
-  projectsBackground.style.border = "2.5px solid orangered";
-  newsBackground.style.backgroundColor = "black";
-  newsBackground.style.border = "2.5px solid orangered";
 });
 
 if(moonIconButton.addEventListener("click", () =>  {
@@ -73,6 +64,7 @@ if (closeWinterPage.addEventListener("click", () => {
   winterPage.style.display = "none";
   winterPageBtn.style.display = "block";
 }));
+
 
 
 
