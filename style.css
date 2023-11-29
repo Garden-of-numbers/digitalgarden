@@ -178,6 +178,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 80%;
   margin: 75px auto 0;
   padding: 25px;
   border: 2.5px solid orangered;
